@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.container{
+  display: flex;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formulario{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: azure;
+  margin: 80px;
+  height: 74vh;
+  width: 70vh;
+  border: solid 1px;
+  border-radius: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+form{
+  display: flex;
+  flex-direction: column;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  height: 25px;
+  width: 30vh;
+  margin: 5px 0px;
+  border: gainsboro solid 1px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+}
+
+h1{
+  position: absolute;
+  margin-bottom: 335px;
+}
+
+.select{
+  height: 32px;
+  width: 35vh;
+  margin: 5px 0px;
 }
